@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+table {
+	border-collapse : collapse;
+}
+
+td, th {
+	text-align : center;
+	padding : 10px;
+	height : 20px;
+	width : 100px;
+}
+
+.td_title {
+	width : 160px;
+}
+
+.td_professor {
+	width : 200px;
+}
+
+thead {
+	background : LightSteelBlue;
+	color :  Yellow;
+}
+
+tfoot {
+	background : Khaki;
+}
+
+td, tfoot th {
+	border-bottom : 1px solid gray;
+}
+
+tbody tr:hover {
+	background : pink;
+}
